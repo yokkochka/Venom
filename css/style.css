@@ -1,8 +1,13 @@
 body {
-    background-color: #14131a;
+    background: url(../images/background.jpg) #14131A no-repeat;
+    background-size: 100%;
     color: #fff;
     font-family: "Roboto", sans-serif;
     padding-left: 100px;
+}
+
+a {
+    color: #fff;
 }
 
 .header {
@@ -18,7 +23,6 @@ body {
     padding: 0;
     list-style: none;
     display: flex;
-
 }
 
 .navMenuItem {
@@ -48,4 +52,42 @@ body {
     color: rgba(255, 255, 255, 0.8);
     max-width: 423px;
     margin-top: 40px;
+    margin-bottom: 70px;
+}
+
+.button {
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.buttonText, .buttonIcon {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.buttonText {
+    font-size: 14px;
+    line-height: 16px;
+    margin-left: 10px;
+}
+
+.buttonPrimary {
+    color: #8D0019;
+    background-color: #fff;
+}
+
+.venom {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.blood {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
 }
