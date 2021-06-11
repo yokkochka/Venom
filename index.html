@@ -16,6 +16,14 @@
             <img width="46" height="71" src="images/logo.png" alt="Logo: Venom" class="logoImage">
         </a>
         <nav class="nav">
+            <button class="menuButton">
+                <span class="menuButtonText">Меню</span>
+                <img src="images/menu.svg" alt="Icon: Burger menu" class="menuButtonIcon">
+            </button>
+            <button class="menuClose">
+                <span class="menuCloseText">Закрыть</span>
+                <img src="images/close.svg" alt="Icon: Close" class="menuCloseIcon">
+            </button>
             <ul class="navMenu">
                 <li class="navMenuItem">
                     <a href="about.html" class="navMenuLink">О фильме</a>
@@ -35,15 +43,15 @@
     <div class="film">
         <div class="filmText">
             <span class="filmDate">16 сентября 2021</span>
-            <img src="images/venom2.svg" alt="Logo: Venom 2">
+            <img src="images/venom2.svg" alt="Logo: Venom 2" class="filmLogo">
             <p class="filmDescription">В настырном журналисте по-прежнему живет симбиот. Том Харди в образе обаятельного суперзлодея из комиксов Marvel.</p>
         </div>
         <!-- /.filmText -->
         <div class="buttonGroup">
-            <button class="button buttonPrimary">
+            <a data-fancybox href="https://www.youtube.com/watch?v=Othd8W8o3t0&ab_channel=SonyPicturesRU" class="button buttonPrimary">
                 <img width="15px" src="images/play.svg" alt="Icon: play" class="buttonIcon">
                 <span class="buttonText">Смотреть трейлер</span>
-            </button>
+            </a>
             <a href="#" class="button buttonLink">
                 <img width="15px" src="images/ticket.svg" alt="Icon: Ticket" class="buttonIcon">
                 <span class="buttonText">Билеты на премьеру</span>
@@ -53,5 +61,9 @@
     <!-- /.film -->
     <img src="images/Venom.png" alt="" class="venom">
     <img src="images/blood.png" alt="" class="blood">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>
