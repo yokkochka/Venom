@@ -25,12 +25,12 @@ This repository contains the source code for a website about the movie *Venom 2*
 
 1. **Clone the Repository**:
     ```bash
-    git clone https://github.com/yokkochka/Venom.git
+    git clone https://github.com/account_username/repository_name.git
     ```
 
 2. **Go to the Project Directory**:
     ```bash
-    cd Venom
+    cd repository_name
     ```
 
 3. **Open `index.html`**:
