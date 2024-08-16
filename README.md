@@ -1,37 +1,43 @@
 # Venom 2 Website Project
 
-Welcome to the **Venom 2** website project! This repository contains the source code for a visually engaging and responsive website dedicated to the movie *Venom 2*. The website is built using HTML and CSS, featuring a sleek and modern design to provide an immersive experience for fans of the film.
+This repository contains the source code for a website about the movie *Venom 2*. The site is built with HTML and CSS, and it includes a responsive layout and interactive elements.
 
 ## Features
 
-- **Home page**: The landing page of the site introduces the movie with key information about *Venom 2*.
-- **About the movie page**: Provides into the film, including a plot summary, cast information, and other relevant details.
-- **Responsive layout**: The website uses a fluid layout that adapts seamlessly to various screen sizes, ensuring a smooth viewing experience on desktops, tablets, and smartphones.
-- **Embedded trailer**: A dynamic section embedded with a YouTube video trailer, allowing visitors to watch the official trailer directly from the site.
+- **Home page**: Main page with introductory information about *Venom 2*.
+- **About page**: Details about the movie, including plot summary and cast.
+- **Responsive design**: Adapts to different screen sizes for desktop, tablet, and mobile views.
+- **Embedded trailer**: YouTube video trailer integrated into the site.
 
-## Files Included
+## Files
 
-1. **`index.html`**: The main homepage of the site.
-2. **`about.html`**: The page containing detailed information about the movie.
-3. **`styles.css`**: The stylesheet that controls the layout, colors, and overall design of the website.
-4. **`normalize.css`**: Stylesheet
+1. **`index.html`**: Homepage.
+2. **`about.html`**: Page with movie details.
+3. **`styles.css`**: CSS for styling and layout.
+4. **`normalize.css`**: CSS to normalize browser styles.
+5. **`main.js`**: JavaScript for interactive features.
 
-## How to View the Site
+## JavaScript Functionality
+
+- **Menu toggle**: The `main.js` file enables the navigation menu to open and close when the corresponding buttons are clicked.
+
+## How to View
 
 1. **Clone the Repository**:
     ```bash
     git clone https://github.com/yokkochka/Venom.git
     ```
 
-2. **Navigate to the Project Directory**:
+2. **Go to the Project Directory**:
     ```bash
     cd Venom
     ```
 
-3. **Open the `index.html` File**:
-    Open the `index.html` file in your preferred web browser to view the homepage. You can also view the `about.html` file to see the page with movie details.
+3. **Open `index.html`**:
+    Open the `index.html` file in a web browser to view the homepage. To view the movie details page, open `about.html`.
 
-## Technologies Used
+## Technologies
 
-- **HTML**: For structuring the web pages.
+- **HTML**: For webpage structure.
 - **CSS**: For styling and responsive design.
+- **JavaScript**: For interactive elements.
