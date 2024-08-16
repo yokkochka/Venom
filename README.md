@@ -20,12 +20,12 @@ Welcome to the **Venom 2** website project! This repository contains the source 
 
 1. **Clone the Repository**:
     ```bash
-    git clone https://github.com/yokkochka/venom.git
+    git clone https://github.com/yokkochka/Venom.git
     ```
 
 2. **Navigate to the Project Directory**:
     ```bash
-    cd venom
+    cd Venom
     ```
 
 3. **Open the `index.html` File**:
