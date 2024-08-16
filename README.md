@@ -19,7 +19,7 @@ This repository contains the source code for a website about the movie *Venom 2*
 
 ## JavaScript Functionality
 
-- **Menu toggle**: The `main.js` file enables the navigation menu to open and close when the corresponding buttons are clicked.
+- **Menu Toggle**: The `main.js` file enables the navigation menu to open and close when the corresponding buttons are clicked.
 
 ## How to View
 
@@ -41,3 +41,23 @@ This repository contains the source code for a website about the movie *Venom 2*
 - **HTML**: For webpage structure.
 - **CSS**: For styling and responsive design.
 - **JavaScript**: For interactive elements.
+
+## Screenshots
+
+### Home Page
+
+![Home Page](./pictures_for_readme/home_page.jpg)
+
+### Trailer Section
+
+![Trailer Section](./pictures_for_readme/movie_trailer.jpg)
+
+### About Page
+
+![About Page](./pictures_for_readme/about_page.jpg)
+
+### Fluid layout
+
+![Desktop View](./pictures_for_readme/fluid_layout_1.jpg)
+
+![Mobile View](./pictures_for_readme/fluid_layout_2.jpg)
